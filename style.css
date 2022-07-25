@@ -5,14 +5,6 @@ body {
     background-color: #eee;
 }
 
-header {
-    font-family:"Abril Fatface";
-}
-
-article {
-    font-family:"Roboto Slab";
-}
-
 .newspaper-container {
     display: block;
     background-color: white;
@@ -23,17 +15,47 @@ article {
     margin: 3em auto;
 }
 
-h1 {
+header h1 {
     text-align: center;
+    font-family:"Abril Fatface";
+}
+
+.date {
+    font-size: .5em;
 }
 
 h5 {
-    color: red;
+    color: #dd3232;
 }
 
-nav li {
+nav {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+nav li, 
+a:link {
     list-style: none;
     display: inline-block;
-    padding: 15px;
-    color: ;
+    padding: 2px;
+    color: #777;
+    text-decoration: none;
+}
+
+main img {
+    width: 100%;
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 49%;
+    ;
+}
+
+.more-articles {
+    border-top: 1px solid #777;
+}
+
+h4{
+    font-family:"Roboto Slab";
 }
