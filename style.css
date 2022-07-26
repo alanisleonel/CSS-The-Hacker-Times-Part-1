@@ -74,3 +74,9 @@ section img {
     display: block;
     width: 100%;
 }
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
